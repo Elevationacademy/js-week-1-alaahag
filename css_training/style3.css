@@ -1,0 +1,37 @@
+#container
+{
+    background-color:darkgray;
+    display:inline-block;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 5px;
+}
+.prompt
+{
+    font-weight: bold;
+}
+.box
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px;
+}
+.box:first-child
+{
+    background-color: aquamarine;
+}
+
+.box:nth-child(2)
+{
+    background-color: orange;
+}
+.button
+{
+    background-color: darkseagreen;
+    border-color: green;
+    padding: 5px;
+}
+input
+{
+    height: 24px;
+}

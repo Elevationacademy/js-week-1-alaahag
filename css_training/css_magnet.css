@@ -1,0 +1,38 @@
+
+#parent{
+	width: 250px;
+    height: 200px;
+    position: relative;
+}
+
+#parent div
+{
+    position: relative;
+    display: block;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.child_gray {
+    background-color: gray;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+}
+
+.child_red {
+    background-color: red;
+}
+
+.child_red_left {
+    border-top-right-radius: 9%;
+    border-bottom-left-radius: 7%;
+}
+
+.child_red_right {
+    border-top-left-radius: 9%;
+    border-bottom-right-radius: 7%;
+}
+
+
+

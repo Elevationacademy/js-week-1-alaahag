@@ -1,0 +1,38 @@
+
+#parent{
+	width: 208px;
+    height: 112px;
+    display: inline-block;
+    background-color: black;
+    overflow: hidden;
+    border: 3px solid;
+}
+
+#parent div
+{
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.brown {
+    background-color: #66320E;
+    height: 50px;
+    width: 50px;
+    margin: 1px;
+}
+
+.strip_bar {
+    background-color: darkred;
+    height: 5px;
+    width: 99%;
+    border: 1px solid;
+    margin: 1px;
+}
+
+.clear_left
+{
+    clear: left;
+    /* background-color: black; */
+}
+
