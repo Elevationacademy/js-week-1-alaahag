@@ -1,0 +1,116 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:midnightblue;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #111;
+}
+
+#container
+{
+    background-color:pink;
+    position: relative;
+    text-align: center;
+}
+
+#logo
+{
+    width: 100%;
+    height: 305px;
+    text-align: center;
+}
+
+#logo img
+{
+    width: 70%;
+    height: 300px;
+    border: 2px outset;
+}
+
+#logo-title
+{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    background-color:white;
+    padding: 20px 16px;
+    width:68%;
+    border: 2px outset;
+    font-size: 24px;
+    opacity: 0.9;
+    font-size: 34px;
+    text-shadow: 2px 1px 0px #eb452b;
+}
+
+#band, #tour, #contact
+{
+    max-width: 96.5%;
+    color: midnightblue;
+}
+
+#band p
+{
+    box-sizing: border-box;
+    color: midnightblue;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: inline;
+}
+
+time
+{
+    z-index: 2;
+    top: 0;
+    height: 50%;
+    overflow: hidden;    
+    background-color: #f7f7f7;
+    @include border-top-radius(10px);
+}
+
+button
+{
+    background-color:blue;
+    color:white;
+}
+
+time {
+    appearance: none;
+    -webkit-appearance: none;
+    color: blue;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 14px;
+    border:2px solid #ecf0f1;
+    background:white;
+    padding:4px;
+    margin: 4px;
+    width: 45%;
+    display: block;
+    position: relative;
+    left: 26%;
+    border-color: whitesmoke;
+    border-radius: 4px;
+}
